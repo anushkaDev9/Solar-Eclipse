@@ -1,0 +1,38 @@
+body{
+    background-color: rgb(14, 87, 135);
+   
+}
+.sun{
+ background-color: #504949;
+    background: yellow;
+  border-radius: 50%;
+  box-shadow: inset 0 0 90px rgba(213, 143, 4, 0.4), 0 0 50px 10px rgba(251, 172, 19, .5), 0 0 120px 20px rgba(255, 255, 255, .6), 0 0 20px 10px rgba(255, 255, 255, .9);
+  height: 200px;
+  left: 50%;
+  position: absolute;
+  top: 45%;
+  transform: translate(-50%,-50%);
+  width: 200px;
+  z-index: 0;
+}
+#moon{
+     display: none;
+    background: black;
+  border-radius: 50%;
+  box-shadow: inset 0 0 90px white, 0 0 50px 10px white, 0 0 120px 20px rgba(255, 255, 255, .6), 0 0 20px 10px rgba(255, 255, 255, .9);
+  height: 200px;
+  left:-10%;
+ 
+  position: absolute;
+  top: 45%;
+  transform: translate(-50%,-50%);
+  width: 200px;
+  z-index: 0;
+  
+}
+
+ @media screen and (min-width: 300px) and (max-width: 900px) {
+ #moon{
+  left:-35%
+ }
+}
